@@ -12,7 +12,7 @@
 		2A24273F1F5510350067B5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A24273D1F5510350067B5D4 /* Main.storyboard */; };
 		2A2427411F5510350067B5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2427401F5510350067B5D4 /* Assets.xcassets */; };
 		2A2427441F5510350067B5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2427421F5510350067B5D4 /* LaunchScreen.storyboard */; };
-		2A24274E1F5536F60067B5D4 /* Inceptionv3.mlmodel in Resources */ = {isa = PBXBuildFile; fileRef = 2A24274D1F5536F60067B5D4 /* Inceptionv3.mlmodel */; };
+		A2CB4D981F93BD9100109497 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A2CB4D971F93BD9100109497 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		2A2427401F5510350067B5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2427431F5510350067B5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2427451F5510350067B5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A24274D1F5536F60067B5D4 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = cPic/Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		A2CB4D971F93BD9100109497 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = cPic/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		2A24272D1F5510350067B5D4 = {
 			isa = PBXGroup;
 			children = (
-				2A24274D1F5536F60067B5D4 /* Inceptionv3.mlmodel */,
+				A2CB4D971F93BD9100109497 /* Inceptionv3.mlmodel */,
 				2A2427381F5510350067B5D4 /* cPic */,
 				2A2427371F5510350067B5D4 /* Products */,
 			);
@@ -129,7 +129,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2427441F5510350067B5D4 /* LaunchScreen.storyboard in Resources */,
-				2A24274E1F5536F60067B5D4 /* Inceptionv3.mlmodel in Resources */,
 				2A2427411F5510350067B5D4 /* Assets.xcassets in Resources */,
 				2A24273F1F5510350067B5D4 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A24273C1F5510350067B5D4 /* ViewController.swift in Sources */,
+				A2CB4D981F93BD9100109497 /* Inceptionv3.mlmodel in Sources */,
 				2A24273A1F5510350067B5D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -266,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -283,7 +283,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ordu.cPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -297,7 +297,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ordu.cPic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
